@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.h1{
+    font-size: 2rem;
+}
+.h{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+button{
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#rock{
+    background-color: rgb(241, 10, 10);
+}
+#paper{
+    background-color: rgb(69, 182, 226);
+}
+#scissor{
+    background-color: rgb(42, 230, 42);
+}
+.scores{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.scores p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hide{
+    display: none;
+}
+.userscores{
+    color: rgb(34, 4, 171);
+}
+.computerscores{
+    color: rgb(5, 95, 5);
+}
+#rock:hover{
+    transform: scale(1.1);
+}
+#paper:hover{
+    transform: scale(1.1);
+}
+#scissor:hover{
+    transform: scale(1.1);
+}
